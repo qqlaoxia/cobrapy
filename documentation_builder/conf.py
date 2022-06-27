@@ -61,6 +61,7 @@ version = ".".join(release.split(".")[:2])
 exclude_patterns = ["_build", ".ipynb_checkpoints"]
 
 pygments_style = "sphinx"
+html_theme = 'sphinx_rtd_theme'
 
 # -- Options for HTML output --------------------------------------------------
 
